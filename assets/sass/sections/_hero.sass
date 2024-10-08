@@ -1,0 +1,36 @@
+.hero
+  .container
+    display: block
+    @media screen and (min-width: 750px)
+      display: flex
+      flex-direction: row
+  .image
+    display: block
+    float: right
+    width: clamp(250px, 75%, 600px)
+    z-index: 1
+    @media screen and (min-width: 750px)
+      float: none
+      width: auto
+      display: flex
+      align-items: center
+  img
+    max-inline-size: 100%
+    block-size: auto
+    object-fit: contain
+    margin-bottom: -225px
+    @media screen and (min-width: 750px)
+      margin-bottom: 0
+  .text
+    display: block
+    padding-top: 30vw
+    width: 100%
+    z-index: 2
+    @media screen and (min-width: 750px)
+      padding: 5vw
+
+span
+  background-color: white
+p
+  line-height: 1.7
+  margin-bottom: 20px

@@ -1,0 +1,33 @@
+@mixin default
+  font:
+    display: swap
+    style: normal
+
+@mixin noto-serif
+  font-family: 'Noto Serif'
+
+@mixin lato
+  font-family: 'Lato'
+
+$fonts-folder-url: './assets/fonts/'
+
+/* noto-serif-regular - latin */
+@font-face
+  @include default
+  @include noto-serif
+  font-weight: 400
+  src: url('#{$fonts-folder-url}noto-serif-v23-latin-regular.woff2') format('woff2')
+
+/* noto-serif-bold - latin */
+@font-face
+  @include default
+  @include noto-serif
+  font-weight: 600
+  src: url('#{$fonts-folder-url}noto-serif-v23-latin-600.woff2') format('woff2')
+
+/* lato-regular - latin */
+@font-face
+  @include default
+  @include lato
+  font-weight: 400
+  src: url('#{$fonts-folder-url}lato-v24-latin-regular.woff2') format('woff2')

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khan Academy</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="desktop-navigation"></div>
+
+        <div class="logo">
+          <img
+            class="logo"
+            src="./assets/images/khan_academy.svg"
+            alt="Khan Academy logo"
+          />
+        </div>
+
+        <div class="right-column">
+          <img
+            src="https://img.icons8.com/?size=100&id=59878&format=png&color=000000"
+            alt="magnifying glass"
+          />
+
+          <div>
+            <svg class="burger-svg" viewbox="0 0 60 40">
+              <g
+                stroke="blue"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path id="top-line" d="M5,5 L35,5 Z"></path>
+                <path id="middle-line" d="M5,15 L35,15 Z"></path>
+                <path id="bottom-line" d="M5,25 L35,25 Z"></path>
+              </g>
+            </svg>
+          </div>
+
+          <div class="links">
+            <a href="">Donate</a>
+            <a href="">Login</a>
+            <button></button>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="lightline"></div>
+
+    <div class="navigation-menu hidden">
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 6</a></li>
+        <li><a href="#">Link 7</a></li>
+        <li><a href="#">Link 8</a></li>
+        <li><a href="#">Link 9</a></li>
+        <li><a href="#">Link 10</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="hero">
+        <div class="container group">
+          <div class="image">
+            <picture>
+              <source
+                srcset="./assets/images/hero_student_collage_US_2x.png"
+                media="(min-width: 50em)"
+              />
+              <img
+                src="./assets/images/hero_student_collage_US_1x.png"
+                alt="Student"
+              />
+            </picture>
+          </div>
+
+          <div class="text">
+            <h1>
+              <span
+                >For every student, <br />every classroom. <br />Real
+                results.</span
+              >
+            </h1>
+            <p>
+              <span
+                >We're a nonprofit with the mission to provide <br />a free,
+                world-class education for anyone, <br />anywhere.</span
+              >
+            </p>
+            <button class="button">Start here</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="hideshow">
+        <div class="container">
+          <div class="text">
+            <div class="left-column">
+              <div class="image-crop">
+                <img
+                  src="https://cdn.kastatic.org/genfiles/topic-icons/icons/math.png-444b34-128c.png"
+                />
+              </div>
+              <h2>Math: Pre-K - 8th grade</h2>
+            </div>
+            <div class="toggle">
+              <span class="arrow">
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+          </div>
+          <div class="hidden-text" class="text">
+            <ul class="list">
+              <li>Pre-K through grade 2 (Khan Kids)</li>
+              <li>Early math review</li>
+              <li>2nd grade</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+
+          <div class="text">
+            <div class="left-column">
+              <div class="image-crop">
+                <img
+                  src="https://cdn.kastatic.org/genfiles/topic-icons/icons/reading_language_arts.png-58ff5a-128c.png"
+                />
+              </div>
+              <h2>Reading and language arts</h2>
+            </div>
+            <div class="toggle">
+              <span class="arrow">
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+          </div>
+          <div class="hidden-text" class="text">
+            <ul class="list">
+              <li>Up to 2nd grade (Khan Kids)</li>
+              <li>2nd grade</li>
+              <li>3rd grade</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+
+          <div class="text">
+            <div class="left-column">
+              <div class="image-crop">
+                <img
+                  src="https://cdn.kastatic.org/genfiles/topic-icons/icons/life_skills.png-1a4785-128c.png"
+                />
+              </div>
+              <h2>Life skills</h2>
+            </div>
+            <div class="toggle">
+              <span class="arrow">
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+          </div>
+          <div class="hidden-text" class="text">
+            <ul class="list">
+              <li>Social and emotional learning (Khan Kids)</li>
+              <li>Khanmigo for students</li>
+              <li>AI for education</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+
+          <div class="text">
+            <div class="left-column">
+              <div class="image-crop">
+                <img
+                  src="https://cdn.kastatic.org/genfiles/topic-icons/icons/science_green.png-4ca7bf-128c.png"
+                />
+              </div>
+              <h2>Science</h2>
+            </div>
+            <div class="toggle">
+              <span class="arrow">
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+          </div>
+          <div class="hidden-text" class="text">
+            <ul class="list">
+              <li>Middle school biology</li>
+              <li>Middle school Earth and space science</li>
+              <li>Middle school physics</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <h1 class="item">Why Khan Academy works</h1>
+
+          <div class="item">
+            <img
+              src="./assets/images/personalized_learning_icon.png"
+              alt="Personalized learning"
+            />
+          </div>
+
+          <div class="item">
+            <h2>Personalized learning</h2>
+            <p>
+              Students practice at their own pace, first filling in gaps in
+              their understanding and then accelerating their learning.
+            </p>
+          </div>
+
+          <div class="item">
+            <img
+              src="./assets/images/trusted_content_icon.png"
+              alt="Trusted content"
+            />
+          </div>
+
+          <div class="item">
+            <h2>Trusted content</h2>
+            <p>
+              Khan Academy has partnered with schools and districts to develop a
+              library of trusted, standards-aligned content.
+            </p>
+          </div>
+
+          <div class="item">
+            <img
+              src="./assets/images/empower_teachers_icon.png"
+              alt="Empower teachers"
+            />
+          </div>
+
+          <div class="item">
+            <h2>Tools to empower teachers</h2>
+            <p>
+              With Khan Academy, teachers can identify gaps in their students'
+              understanding, tailor instruction, and focus on delivering the
+              right intervention at the right time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="review"></section>
+    </main>
+
+    <footer></footer>
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>
